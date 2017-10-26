@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   # User
   get '/signup',  to: 'users#new'
+  resources :users
 end
